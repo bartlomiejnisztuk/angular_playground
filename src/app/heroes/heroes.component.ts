@@ -28,4 +28,8 @@ export class HeroesComponent implements OnInit {
     console.log(this.selectedHero);
   }
 
+  refreshAll(){
+    this.getHeroes();
+  }
+
 }
